@@ -86,7 +86,7 @@ header .menu-bar-pc{
 }
 
 header .menu-bar-pc .logo {
-  max-width: 3.125rem
+  max-width: 5rem; 
 }
 
 header .menu-bar-pc .menu-principal a {
@@ -163,11 +163,11 @@ header .menu-bar-movil .slideMenu .menu-principal a{
 }
 
 .main .portada .col{
-  width: 50%;
   background-color: #141618;
   color: white;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .main .portada .col .foto{
@@ -177,7 +177,7 @@ header .menu-bar-movil .slideMenu .menu-principal a{
 }
 
 .main .portada .col .foto.izq{
-  background-image: url('../img/portada-1.jpg');
+  background-image: url('../img/portada-1.png');
   background-position: left;
 }
 
@@ -355,21 +355,21 @@ header .menu-bar-movil .slideMenu .menu-principal a{
 
 .main .chef .container .col .slider .slide{
   width: 100%;
-  min-height: 400px;
+  min-height: 600px;
   background-size: cover;
   background-position: center;
 }
 
 .main .chef .container .col .slider .slide.foto1{
-  background-image: url('../img/chef-1.jpg');
+  background-image: url('../img/portada-2.png');
 }
 
 .main .chef .container .col .slider .slide.foto2{
-  background-image: url('../img/chef-2.jpg');
+  background-image: url('../img/portada-3.png');
 }
 
 .main .chef .container .col .slider .slide.foto3{
-  background-image: url('../img/chef-3.jpg');
+  background-image: url('../img/portada-4.png');
 }
 
 .main .chef .container .col.izq{
